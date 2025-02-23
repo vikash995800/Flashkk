@@ -153,7 +153,7 @@ def add_user(message):
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
-        response = " ʙᴜʏ ᴋʀᴏ :- @IG_ZATCH_EREN❄."
+        response = " ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄."
 
     bot.reply_to(message, response)
 
@@ -189,7 +189,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>😘'''
     else:
-        response = "ʙᴜʏ ᴋʀᴏ :- @IG_ZATCH_EREN ❄"
+        response = "ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄"
 
     bot.reply_to(message, response)
 
@@ -208,7 +208,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "ʙᴜʏ ᴋʀᴏ :- @BGMIHACKSSAFE9 ❄"
+        response = "ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄"
     bot.reply_to(message, response)
 
 
@@ -227,7 +227,7 @@ def clear_users_command(message):
         except FileNotFoundError:
             response = "users are already cleared ❌."
     else:
-        response = "ʙᴜʏ ᴋʀᴏ :- @IG_ZATCH_EREN ❄"
+        response = "ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄"
     bot.reply_to(message, response)
  
 
@@ -252,7 +252,7 @@ def show_all_users(message):
         except FileNotFoundError:
             response = "No data found ❌"
     else:
-        response = "ʙᴜʏ ᴋʀᴏ :- @BGMIHACKSSAFE9 ❄"
+        response = "ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄"
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['logs'])
@@ -270,7 +270,7 @@ def show_recent_logs(message):
             response = "No data found ❌"
             bot.reply_to(message, response)
     else:
-        response = "ʙᴜʏ ᴋʀᴏ :- @IG_ZATCH_EREN ❄"
+        response = "ʙᴜʏ ᴋʀᴏ :- @GOLEM_OWNER ❄"
         bot.reply_to(message, response)
 
 
